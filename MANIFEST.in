@@ -1,0 +1,11 @@
+include lanrzip_utils_components/lanrzip_utils_components.min.js
+include lanrzip_utils_components/lanrzip_utils_components.min.js.map
+include lanrzip_utils_components/async-*.js
+include lanrzip_utils_components/async-*.js.map
+include lanrzip_utils_components/*-shared.js
+include lanrzip_utils_components/*-shared.js.map
+include lanrzip_utils_components/metadata.json
+include lanrzip_utils_components/package-info.json
+include README.md
+include LICENSE
+include package.json
