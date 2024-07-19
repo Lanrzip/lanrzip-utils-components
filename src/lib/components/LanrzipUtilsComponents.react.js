@@ -58,9 +58,7 @@ const LanrzipUtilsComponents = (props) => {
                 ai: {
                     models: {
                         spark: {
-                            appId: "97a1f660",
-                            apiKey: "7ce043a22243ee772e7191504f4ee917",
-                            apiSecret: "OTU1NWI5YjU3NWZhMTdlMDdkY2NlZTQz"
+
                         }
                     },
                 },
