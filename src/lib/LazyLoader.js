@@ -1,1 +1,0 @@
-export const LanrzipUtilsComponents = React.lazy(() => import(/* webpackChunkName: "LanrzipUtilsComponents" */ './fragments/LanrzipUtilsComponents.react'));

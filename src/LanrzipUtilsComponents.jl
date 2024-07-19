@@ -5,6 +5,10 @@ using Dash
 const resources_path = realpath(joinpath( @__DIR__, "..", "deps"))
 const version = "0.0.1"
 
+include("jl/''_lanrzipaieditor.jl")
+include("jl/''_lanrzipmermaid.jl")
+include("jl/''_lanrzipselectpopup.jl")
+include("jl/''_lanrzipslick.jl")
 include("jl/''_lanrziputilscomponents.jl")
 
 function __init__()

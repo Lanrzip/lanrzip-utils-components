@@ -80,6 +80,37 @@ module.exports = (env, argv) => {
                         },
                     ],
                 },
+                // {
+                //     test: /\.(sass|css|scss)$/,
+                //     use: [
+                //       'style-loader',
+                //       'css-loader',
+                //       {
+                //         loader: "postcss-loader",
+                //         options: {
+                //           plugins: () => [
+                //             require("autoprefixer")()
+                //           ],
+                //         },
+                //       },
+                //       'sass-loader',
+                //     ]
+                // },
+                {
+                    test: /\.less$/,
+                    use: [
+                        'style-loader',
+                        'css-loader',
+                        {
+                            loader: 'less-loader',
+                            options: {
+                                lessOptions: {
+                                    javascriptEnabled: true
+                                }
+                            }
+                        }
+                    ]
+                }
             ],
         },
         optimization: {
